@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CampusBite – Attendance Cut Details</title>
+  <link rel="Stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo-row">
+      <div class="logo">
+        <div class="logo-icon">CB</div>
+        <div class="logo-text">
+          <span>CampusBite</span>
+          <span>Hostel Mess Hub</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="nav-title">Dashboard</div>
+      <nav class="nav">
+        <a href="index.html">
+          <span class="label"><span class="icon">🏠</span>Overview</span>
+          <small>Today</small>
+        </a>
+        <a href="mess-bill.html">
+          <span class="label"><span class="icon">💳</span>Mess Bill</span>
+          <small>Payments</small>
+        </a>
+        <a href="mess-cut.html">
+          <span class="label"><span class="icon">✂️</span>Mess Cut</span>
+          <small>Apply</small>
+        </a>
+        <a href="attendance.html">
+          <span class="label"><span class="icon">📅</span>Attendance Details</span>
+           
+        </a>
+        <a href="attendance-cut.html" class="active">
+          <span class="label"><span class="icon">🚫</span>Attendance Cut</span>
+          <small>Summary</small>
+        </a>
+      </nav>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>Smart, QR-enabled mess<br /><span>Made for hostels</span></p>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="top-left">
+        <div class="profile-wrapper">
+          <div class="profile-icon">SA</div>
+          <div class="profile-dropdown">
+            <a href="#profile">View profile <span>▸</span></a>
+            <a href="#settings">Settings</a>
+            <a href="#logout" class="logout">Logout</a>
+          </div>
+        </div>
+        <div>
+          <div class="top-title">Attendance Cut Details</div>
+          <div style="font-size:.78rem;color:#9ca3af;">Admin summary</div>
+        </div>
+      </div>
+      <div class="top-right">
+        <span class="top-badge">Plate planning</span>
+      </div>
+    </header>
+
+    <section class="content">
+      <section class="card">
+        <div class="table-header">
+          <h2>Students on mess cut</h2>
+          <span>Used to estimate daily food requirement.</span>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>SL</th>
+              <th>Mess No.</th>
+              <th>Name</th>
+              <th>From</th>
+              <th>To</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>192</td>
+              <td>Livin Linson</td>
+              <td>11 Sep 2024</td>
+              <td>12 Sep 2024</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>209</td>
+              <td>Sukesh P S</td>
+              <td>11 Sep 2024</td>
+              <td>12 Sep 2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

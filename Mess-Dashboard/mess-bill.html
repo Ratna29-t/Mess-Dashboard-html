@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CampusBite – Mess Bill</title>
+  <link rel="Stylesheet" href="main.css" type="text/css">
+   
+   
+   
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo-row">
+      <div class="logo">
+        <div class="logo-icon">CB</div>
+        <div class="logo-text">
+          <span>CampusBite</span>
+          <span>Hostel Mess Hub</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="nav-title">Dashboard</div>
+      <nav class="nav">
+        <a href="index.html">
+          <span class="label"><span class="icon">🏠</span>Overview</span>
+          <small>Today</small>
+        </a>
+        <a href="mess-bill.html" class="active">
+          <span class="label"><span class="icon">💳</span>Mess Bill</span>
+          <small>Payments</small>
+        </a>
+        <a href="mess-cut.html">
+          <span class="label"><span class="icon">✂️</span>Mess Cut</span>
+          <small>Apply</small>
+        </a>
+        <a href="attendance.html">
+          <span class="label"><span class="icon">📅</span>Attendance Details</span>
+           
+        </a>
+        <a href="attendance-cut.html">
+          <span class="label"><span class="icon">🚫</span>Attendance Cut</span>
+          <small>Summary</small>
+        </a>
+      </nav>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>Smart, QR-enabled mess<br /><span>Made for hostels</span></p>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="top-left">
+        <div class="profile-wrapper">
+          <div class="profile-icon">SA</div>
+          <div class="profile-dropdown">
+            <a href="#profile">View profile <span>▸</span></a>
+            <a href="#settings">Settings</a>
+            <a href="#logout" class="logout">Logout</a>
+          </div>
+        </div>
+        <div>
+          <div class="top-title">Mess Bill – September 2024</div>
+          <div style="font-size:.78rem;color:#9ca3af;">Calculated from QR attendance & mess cuts</div>
+        </div>
+      </div>
+      <div class="top-right">
+        <span class="top-badge">Online payment</span>
+      </div>
+    </header>
+
+    <section class="content">
+      <section class="card">
+        <div class="table-header">
+          <div>
+            <h1>Your bill summary</h1>
+            <span>Review before paying through the hostel office or online.</span>
+          </div>
+          <button class="pill-link">Download receipt</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Mess No.</th>
+              <th>Student</th>
+              <th>Effective Days</th>
+              <th>Per Day (₹)</th>
+              <th>Mess Cuts</th>
+              <th>Total Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>120</td>
+              <td>Sam Alex</td>
+              <td>27</td>
+              <td>95</td>
+              <td>3</td>
+              <td class="highlight-amount">₹2565</td>
+              <td><span class="badge-yellow">Pending</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

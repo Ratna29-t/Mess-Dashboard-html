@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CampusBite – Dashboard</title>
+  <link rel="Stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo-row">
+      <div class="logo">
+        <div class="logo-icon">CB</div>
+        <div class="logo-text">
+          <span>CampusBite</span>
+          <span>Hostel Mess Hub</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="nav-title">Dashboard</div>
+      <nav class="nav">
+        <a href="index.html" class="active">
+          <span class="label"><span class="icon">🏠</span>Overview</span>
+          <small>Today</small>
+        </a>
+        <a href="mess-bill.html">
+          <span class="label"><span class="icon">💳</span>Mess Bill</span>
+          <small>Payments</small>
+        </a>
+        <a href="mess-cut.html">
+          <span class="label"><span class="icon">✂️</span>Mess Cut</span>
+          <small>Apply</small>
+        </a>
+        <a href="attendance.html">
+          <span class="label"><span class="icon">📅</span>Attendance Details</span>
+           
+        </a>
+        <a href="attendance-cut.html">
+          <span class="label"><span class="icon">🚫</span>Attendance Cut</span>
+          <small>Summary</small>
+        </a>
+      </nav>
+    </div>
+
+    <div class="sidebar-footer">
+      <p>Smart, QR-enabled mess<br /><span>Made for hostels</span></p>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="top-left">
+        <div class="profile-wrapper">
+          <div class="profile-icon">SA</div>
+          <div class="profile-dropdown">
+            <a href="#profile">View profile <span>▸</span></a>
+            <a href="#settings">Settings</a>
+            <a href="#logout" class="logout">Logout</a>
+          </div>
+        </div>
+        <div>
+          <div class="top-title">Hi, Sam Alex</div>
+          <div style="font-size:.78rem;color:#9ca3af;">ECE · S5 · Mess No. 120</div>
+        </div>
+      </div>
+      <div class="top-right">
+        <span class="top-badge">Live QR attendance</span>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="summary-row">
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">Total Students</div>
+            <span class="pill">This hostel</span>
+          </div>
+          <div class="metric-value">228</div>
+          <div class="metric-sub">Active registrations for this month.</div>
+          <div class="metric-chip">⬆ 8 new since last week</div>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">Mess Attendance Today</div>
+            <span class="pill">Lunch & Dinner</span>
+          </div>
+          <div class="metric-value">146</div>
+          <div class="metric-sub">QR scans recorded across all meals.</div>
+          <div class="metric-chip">Real-time synced with QR devices</div>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">Estimated Food Plates</div>
+            <span class="pill">Waste-aware</span>
+          </div>
+          <div class="metric-value">226</div>
+          <div class="metric-sub">Auto-calculated after mess cuts.</div>
+          <div class="metric-chip negative">Food waste down 12%</div>
+        </article>
+      </div>
+
+      <section class="dashboard-grid">
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">Attendance Details</div>
+            <span class="pill">Today</span>
+          </div>
+          <p style="font-size:.86rem;color:#d1d5db;">
+            Every scan at the mess gate is logged with time and meal type to build accurate bills and plate counts.
+          </p>
+          <ul style="margin-top:.9rem;font-size:.82rem;color:#cbd5f5;list-style:disc;padding-left:1.1rem;">
+            <li>Breakfast: 0 scans today.</li>
+            <li>Lunch: 4 scans recorded.</li>
+            <li>Dinner: 4 scans recorded.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">Scan QR to Enter</div>
+            <span class="pill">Gate device</span>
+          </div>
+          <div class="qr-box">
+            <div class="qr-placeholder">QR CODE HERE</div>
+            <div style="text-align:center;font-size:.8rem;color:#9ca3af;">
+              Show this QR at the mess gate to mark attendance.
+            </div>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
