@@ -127,6 +127,7 @@ CampusBite provides a **single dashboard** that allows:
 ---
 
 ## 📂 Project Structure
+
 CampusBite/
 │
 ├── index.html # Dashboard overview
@@ -201,13 +202,7 @@ Realistic hostel use-case design
 
 ---
 
-### Screen Shots
-
-<img width="1913" height="915" alt="Screenshot 2025-12-19 145408" src="https://github.com/user-attachments/assets/3fc177ee-8588-48fa-bf8b-e8cba6f2f0d2" />
-<img width="1913" height="915" alt="Screenshot 2025-12-19 145408" src="https://github.com/user-attachments/assets/f4b8afc0-b860-4ad3-ad5e-7cb502e3e8f2" />
-<img width="1913" height="920" alt="Screenshot 2025-12-19 150008" src="https://github.com/user-attachments/assets/3cdbea40-3a6f-42d1-b1ed-b276fac7668b" />
-<img width="1911" height="918" alt="Screenshot 2025-12-19 150044" src="https://github.com/user-attachments/assets/47c7c325-9776-4bd6-a195-f598394cdbcf" />
-<img width="1905" height="919" alt="Screenshot 2025-12-19 150125" src="https://github.com/user-attachments/assets/0b4ceb44-1d5e-4e16-8d79-92d21a327a53" />
+ 
 
 
 
